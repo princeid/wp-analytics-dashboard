@@ -1,0 +1,23 @@
+{
+    "name": "josephl5lab/wpanalytics",
+    "description": "Wordpress analytics",
+    "authors": [
+        {
+            "name": "Abah Joseph",
+            "email": "joefazee@gmail.com"
+        }
+    ],
+    "require": {
+        "aura/session": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "core/functions.php",
+            "core/config.php",
+            "core/routes.php"
+        ]
+    }
+}
